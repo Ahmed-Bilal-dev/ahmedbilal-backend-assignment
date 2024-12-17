@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 140px 200px 200px 200px;
+  
+}
+
+.Home h1{
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.Home p{
+    font-size: 1.563rem;
+    line-height: 3rem;
+}
+
+.Home a {
+    color: black;
+}
+
+@media (max-width: 1020px) {
+    .Home{
+        margin: 140px 0px 0px 100px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Home{
+        margin: 100px 0px 0px 20px;
+        font-size: small;
+    }
+
+    .Home h1{
+      font-size: 2.75rem;
+      line-height: 1;
+      font-weight: 500;
+  }
+
+  .Home p{
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+  }
+

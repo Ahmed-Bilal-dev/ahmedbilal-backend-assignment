@@ -1,0 +1,14 @@
+.data{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.data h1{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1020px) {
+    .data{
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+  }
